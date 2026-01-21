@@ -82,6 +82,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+             
+        <distributionManagement>
+        <repository>
+            <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
+            <url>http://98.82.177.131:8081/repository/maven-releases/</url>
+        </repository>
+        </distributionManagement>
 
     </dependencies>
 
